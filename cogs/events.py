@@ -16,7 +16,7 @@ class EventsCog(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message(self, message: disnake.Message):
-        if message.author.bot:
+        if message.author.bot or message.guild is None:
             return
         if message.author.id in self.client.database.all_users:
             server_channel = await self.client.fetch_channel(
