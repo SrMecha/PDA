@@ -1,1 +1,1 @@
-worker: python ngnl.py
+worker: python main.py
