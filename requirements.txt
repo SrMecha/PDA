@@ -1,0 +1,5 @@
+python-dotenv
+motor==2.5.1
+dnspython==2.2.0
+disnake==2.3.0
+certifi

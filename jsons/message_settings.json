@@ -1,0 +1,12 @@
+{
+  "characters": {
+    "sidorovich": {
+      "name": "Сидорович",
+      "avatar_url": "https://i.imgur.com/MTKYgsB.jpg"
+    },
+    "wolf": {
+      "name": "Волк",
+      "avatar_url": "https://i.imgur.com/4wM1v58.jpg"
+    }
+  }
+}
